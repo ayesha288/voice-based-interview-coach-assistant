@@ -7,7 +7,7 @@ from datetime import datetime
 from google import genai
 from streamlit_mic_recorder import speech_to_text
 
-# --- Database setup (matches official schema) ---
+#Database setup (matches official schema)
 def init_db():
     conn = sqlite3.connect("interview_coach.db")
     c = conn.cursor()
@@ -55,7 +55,7 @@ def get_alias_history(alias):
 
 init_db()
 
-# --- Question bank (question_id + text) ---
+#Question bank (question_id + text) 
 questions = {
     "NT-COACH-Q01": "Tell me about yourself.",
     "NT-COACH-Q02": "Why should we hire you?",
@@ -108,7 +108,7 @@ Write the feedback now."""
     )
     return response.text
 
-# --- Streamlit session state setup ---
+#Streamlit session state setup
 if "session_id" not in st.session_state:
     st.session_state.session_id = str(uuid.uuid4())[:8]
 if "retry_number" not in st.session_state:
@@ -116,7 +116,7 @@ if "retry_number" not in st.session_state:
 if "question_start_time" not in st.session_state:
     st.session_state.question_start_time = None
 
-# --- UI ---
+#UI
 st.title("Voice-Based Interview Coaching Assistant")
 st.warning(
     "⚠️ **This is a practice tool only.** Feedback is AI-generated and rule-based — it is "
@@ -169,7 +169,7 @@ else:
 
                 filler_count = count_filler_words(answer)
 
-                # STAR score placeholder — we'll build this properly next step
+                #STAR score placeholder
                 star_score, star_found = score_star_structure(answer)
 
                 save_response((
@@ -180,7 +180,8 @@ else:
                     answer,
                     filler_count,
                     star_score,
-                    None,  # learner_rating — added later via a rating widget
+                    None,  
+                    #learner rating 
                     duration,
                     retry_num,
                     datetime.now().strftime("%Y-%m-%d %H:%M:%S"),
