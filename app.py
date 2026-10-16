@@ -123,7 +123,7 @@ st.warning(
     "**not** a hiring assessment and should never be used to make real hiring decisions. "
     "Please use an alias, not your real name."
 )
-learner_alias = st.text_input("Enter a learner alias (not your real name):", value=st.session_state.get("learner_alias", ""))
+learner_alias = st.text_input("Enter your name:", value=st.session_state.get("learner_alias", ""))
 st.session_state.learner_alias = learner_alias
 
 if not learner_alias:
