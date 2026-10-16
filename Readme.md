@@ -41,17 +41,14 @@ Honestly, interview prep is stressful and most people either practice alone with
 
 ## Screenshots
 
-## Screenshots
-
 ![Home screen with disclaimer](screenshots/Home.png)
 ![Practice screen with voice input](screenshots/Practice.png)
 ![Review prompt after speech transcription](screenshots/review.png)
 ![STAR score and AI coaching feedback](screenshots/feedback.png)
 ![Attempt history](screenshots/history.png)
+## Conclusion
 
+This project taught me how an idea becomes a working product. I started with a simple question-and-answer box and ended with a deployed app that takes spoken answers, scores them on STAR structure and filler words, saves every attempt, and uses an AI model to turn those scores into coaching feedback.
 
-## About me
-
-I'm Ayesha, a B.Tech Computer Engineering student at Pillai University, previously did my Diploma in AI/ML.
 
 📎 [LinkedIn](https://www.linkedin.com/in/ayesha-shaikh-8ba770312/) • [GitHub](https://github.com/ayesha288)
