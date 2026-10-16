@@ -1,6 +1,6 @@
 # Voice-Based Interview Coaching Assistant 🎙️
 
-Hey! This is a project I built for my college's AI hackathon. It's a tool that lets you practice interview questions by speaking (or typing) your answers, and get instant feedback on how well-structured your answer is, without needing to find a real person to practice with.
+his is a project I built for my college's AI hackathon. It's a tool that lets you practice interview questions by speaking (or typing) your answers, and get instant feedback on how well-structured your answer is, without needing to find a real person to practice with.
 
 🔗 **Try it live:** https://voice-based-interview-coach-assistant-6ahge3hvomgq3kqkfgctfd.streamlit.app/ 
 
