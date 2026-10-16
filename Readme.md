@@ -43,8 +43,8 @@ Honestly, interview prep is stressful and most people either practice alone with
 
 ## Screenshots
 
-![Home screen with disclaimer](screenshots/home.png)
-![Practice screen with voice input](screenshots/practice.png)
+![Home screen with disclaimer](screenshots/Home.png)
+![Practice screen with voice input](screenshots/Practice.png)
 ![Review prompt after speech transcription](screenshots/review.png)
 ![STAR score and AI coaching feedback](screenshots/feedback.png)
 ![Attempt history](screenshots/history.png)
