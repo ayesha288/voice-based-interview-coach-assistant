@@ -49,29 +49,6 @@ Honestly, interview prep is stressful and most people either practice alone with
 ![STAR score and AI coaching feedback](screenshots/feedback.png)
 ![Attempt history](screenshots/history.png)
 
-## Want to run it yourself?
-
-```bash
-git clone https://github.com/ayesha288/voice-based-interview-coach-assistant.git
-cd voice-based-interview-coach-assistant
-pip install -r requirements.txt
-```
-
-You'll also need your own free Gemini API key. Add it to a `.streamlit/secrets.toml` file like this:
-
-```toml
-GEMINI_API_KEY = "your-key-here"
-```
-
-Then run:
-
-```bash
-streamlit run app.py
-```
-
-## A note on AI assistance
-
-I used Claude AI quite a bit while building this, mainly for debugging errors I didn't understand yet, and learning how to work with things like SQLite and the Gemini API for the first time. I've tested everything here and can explain how it works. Claude helped me get unstuck and learn faster, similar to how a lot of developers use AI tools day to day.
 
 ## About me
 
